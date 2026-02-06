@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "人脸情绪检测",
+    "version": "1.0.0",
+    "description": "AI实时人脸情绪检测工具",
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+      "http://localhost:8000/*",
+      "http://127.0.0.1:8000/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "人脸情绪检测"
+    }
+  }
